@@ -23,4 +23,12 @@ public class UserController {
         return "fail";
     }
 
+    @PostMapping("/register")
+    public String register(@RequestBody User user) {
+        if(userRepository.findByUsername(user.getUsername()) != null) {
+            return "User already exists";
+        }
+        userRepository.save(user);
+        return "User registered successfully";
+
 }
