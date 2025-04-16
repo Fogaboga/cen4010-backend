@@ -31,4 +31,6 @@ public class UserController {
         userRepository.save(user);
         return "User registered successfully";
 
+    }
+
 }
