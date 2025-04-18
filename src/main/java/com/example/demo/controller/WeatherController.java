@@ -1,4 +1,4 @@
-import io.swagger.client.*;
+/*import io.swagger.client.*;
 import io.swagger.client.auth.*;
 import io.swagger.client.model.*;
 import io.swagger.client.api.ApisApi;
@@ -28,4 +28,4 @@ public class ApisApiExample {
             e.printStackTrace();
         }
     }
-}
+} */
